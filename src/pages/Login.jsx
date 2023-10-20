@@ -7,11 +7,11 @@ export function Login() {
   return (
     
     <div className="container">
-
+    <span className="voltar-ao-site">Voltar ao site</span>
     <div className="container-login">
-    <span className="login-form-title"> Bem vindo </span>
+    <span className="login-form-title"> Entre na sua conta de cliente </span>
 
-    <span className="login-form-subtitle"> faça login para poder realizar pedidos e ter acesso a descontos promocionais </span>
+    <span className="login-form-subtitle"> Faça login para poder realizar pedidos e ter acesso a descontos promocionais </span>
 
       <div className="wrap-login">
         <form className="login-form">
@@ -38,7 +38,7 @@ export function Login() {
           </div>
 
           <div className="container-login-form-btn">
-            <button className="login-form-btn">Login</button>
+            <button className="login-form-btn">Fazer Login</button>
           </div>
 
           <div className="text-center">
